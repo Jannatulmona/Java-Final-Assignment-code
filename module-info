@@ -1,0 +1,14 @@
+module com.example.banglaquizapp {
+    // JavaFX modules
+    requires javafx.controls;  // JavaFX UI Controls (e.g., Button, Label)
+    requires javafx.fxml;     // JavaFX FXML support
+
+    // JDBC module for database access
+    requires java.sql;         // Required for database interaction (MySQL)
+
+    // Open the package to JavaFX FXML loader so that JavaFX can access the controllers
+    opens com.example.banglaquizapp to javafx.fxml;
+
+    // Export the package so other modules (if any) can access the classes inside com.example.banglaquizapp
+    exports com.example.banglaquizapp;
+}

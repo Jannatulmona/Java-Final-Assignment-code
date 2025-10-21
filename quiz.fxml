@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.banglaquizapp.QuizController">
+    <Label fx:id="questionLabel" layoutX="100" layoutY="50"/>
+    <Button fx:id="optionA" text="Option A" onAction="#handleAnswer" layoutX="100" layoutY="150"/>
+    <Button fx:id="optionB" text="Option B" onAction="#handleAnswer" layoutX="100" layoutY="200"/>
+    <Button fx:id="optionC" text="Option C" onAction="#handleAnswer" layoutX="100" layoutY="250"/>
+    <Button fx:id="optionD" text="Option D" onAction="#handleAnswer" layoutX="100" layoutY="300"/>
+</AnchorPane>

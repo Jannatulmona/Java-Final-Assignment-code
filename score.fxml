@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.banglaquizapp.ScoreController">
+    <Label fx:id="nameLabel" layoutX="100" layoutY="50"/>
+    <Label fx:id="emailLabel" layoutX="100" layoutY="100"/>
+    <Label fx:id="scoreLabel" layoutX="100" layoutY="150"/>
+</AnchorPane>
